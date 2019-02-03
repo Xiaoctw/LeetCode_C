@@ -1,10 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 
 struct TreeNode;
+#define N 40
 
+#include <string.h>
 int main() {
     printf("Hello, World!\n");
-    return 0;
+    int a=4;
+    printf("整数值%d\n",a);
+    printf("浮点数%10.2f\n",3.213);
+    char str[N]="hhhhh";
+    printf("%s",str);
+    int A[N];
 }
 
 struct TreeNode{
@@ -29,3 +38,4 @@ int maxDepth(struct TreeNode* root) {
     }
     return right+1;
 }
+
